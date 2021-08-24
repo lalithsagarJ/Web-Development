@@ -1,0 +1,28 @@
+ol {
+  list-style-type: upper-roman;
+}
+
+ol ol {
+  list-style-type: upper-alpha;
+}
+
+ol ol ol {
+  list-style-type: decimal;
+}
+
+.main {
+  background-color: #C2FFD9;
+  width: 30%;
+}
+
+.div1 {
+  position: relative;
+  background-color: red;
+  width: 20rem;
+}
+
+.div2 {
+  position: relative;
+  background-color: blue;
+  width: 20rem;
+}

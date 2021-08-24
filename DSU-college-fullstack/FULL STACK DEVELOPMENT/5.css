@@ -1,0 +1,41 @@
+.one {
+  border-left: 6px solid red;
+  border-right: 8px solid green;
+  border-style: double;
+  box-shadow: 10px 10px 10px red;
+}
+
+.two {
+  padding: 10px;
+  box-shadow: 5px 10px 8px green;
+  border-style: solid;
+}
+
+.three {
+  border-bottom: 5px;
+  border-style: groove;
+  box-shadow: 10px 10px 10px blue;
+}
+
+.d1 {
+  text-align: center;
+  padding: 30px 40px;
+  background-color: #F0D9FF;
+  width: 60%;
+  margin-bottom:50px;
+}
+
+.d2 {
+  text-align: center;
+  width: 60%;
+  background-color: #C1CFC0;
+  padding: 30px 40px;
+  margin-bottom: 80px;
+}
+
+.d3 {
+  padding: 30px 40px;
+  width: 60%;
+  text-align: center;
+  background-color: #EEEEEE;
+}

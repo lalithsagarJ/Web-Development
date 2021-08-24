@@ -1,0 +1,45 @@
+/*######################################################  TAGS Selectors  ######################################################*/
+
+body{
+  background-color:blue;
+  color:white;
+}
+
+hr{
+  border-color: grey;
+  border-radius: 10;
+  border-style: none;
+  width: 5%;
+  border-top-style: dotted;
+  border-width: 5px;
+}
+
+h1{
+  color: #FF4301;
+}
+
+h3{
+  color: #FF4301;
+}
+
+ul:hover {
+  color: red;
+}
+
+/*######################################################  CLASS Selectors  ######################################################*/
+
+.Circular {
+  border-radius: 100%;
+}
+
+.label:hover {
+  color: gold;
+}
+
+/*######################################################  CLASS Selectors  ######################################################*/
+/*
+#body {
+  background-color: #082032;
+  color: white;
+}
+*/

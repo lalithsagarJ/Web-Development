@@ -1,0 +1,171 @@
+/*#####################################  TAG STYLING  #####################################*/
+body {
+  color: #0A1931;
+  background-color: #E8F6EF;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #40514E;
+  font-size: 5.375rem;
+  line-height: 2;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-weight: normal;
+  color: #53B8BB;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Merriweather', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #40514E 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: #40514E;
+  font-family: 'Merriweather', sans-serif;
+  text-decoration: none;
+}
+
+/*#####################################  CLASS STYLING  #####################################*/
+.TopContainer {
+  background-color: #E4F9F5;
+  padding-top: 100px;
+}
+
+.img {
+  border-radius: 100%;
+}
+
+.MiddleContainer {
+  margin: 100px 0;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.hi {
+  font-size:3rem;
+  font-family: 'Sacramento', cursive;
+  margin-bottom: 0;
+  color: #4F0E0E;
+}
+
+.BottomContainer {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.Skill-row {
+  text-align: justify;
+  width: 50%;
+  margin: 100px auto;
+}
+
+.im1 {
+  margin-top: 0;
+  width: 17%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 100%;
+}
+
+.im2 {
+  margin-top: 0;
+  border-radius: 100%;
+  float: right;
+  margin-left: 30px;
+  width: 20%;
+}
+
+.cloud-1 {
+  position: absolute;
+  left: 60%;
+  top: 10px;
+}
+
+.cloud-2 {
+  position: absolute;
+  left: 550px;
+  top: 290px;
+}
+
+.cloud-3 {
+  margin-top: 40px;
+  position: absolute;
+  left: 1100px;
+  top: 350px;
+}
+
+.mountain {
+  position: relative;
+  right: 30px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.link:hover {
+  color: #eaf6f6;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Merriweather', serif;
+  color: #ffffff;
+  font-size: 23px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc40d);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc40d);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc40d);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc40d);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc40d);
+  text-decoration: none;
+}
+
+/*#####################################  CLASS STYLING  #####################################*/
+#face {
+  color: red;
+  font-family: monospace;
+}

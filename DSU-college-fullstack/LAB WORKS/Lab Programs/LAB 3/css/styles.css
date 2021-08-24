@@ -1,0 +1,32 @@
+body {
+  background-color: #C2FFD9;
+}
+h1 {
+  font-family: cursive;
+}
+table {
+  text-align: center;
+}
+label {
+  font-family: monospace;
+}
+.d1 {
+  color: white;
+  background-color: #082032;
+  width:100%;
+  text-align: center;
+  position: relative;
+  padding: 5%;
+}
+.d2 {
+  background-color: #334756;
+  width:100%;
+  top:10px;
+  text-align: center;
+  position: relative;
+  padding: 5%;
+}
+.l1 {
+  padding: 0 10px;
+  bottom: 10px;
+}
