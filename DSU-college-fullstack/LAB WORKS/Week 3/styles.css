@@ -47,8 +47,7 @@
 }
 
 input[type=button] {
-  border-style: solid;
-  border-bottom-color: black;
+  background: ;
   width: 20%;
   font-size: 20px;
   font-weight: 900;
