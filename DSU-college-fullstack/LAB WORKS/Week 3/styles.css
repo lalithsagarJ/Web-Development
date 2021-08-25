@@ -7,6 +7,13 @@
   display: contents;
 }
 
+.footer {
+  margin-top: 100px;
+  text-align: right;
+  font-style: italic;
+  font-family: monospace;
+}
+
 #calc-contain {
   margin-top: 20px;
   background: black;
@@ -47,7 +54,8 @@
 }
 
 input[type=button] {
-  background: ;
+  border-style: solid;
+  border-bottom-color: black;
   width: 20%;
   font-size: 20px;
   font-weight: 900;
