@@ -1,29 +1,78 @@
+.box {
+  font-family: monospace;
+  color: black;
+  background-color: white;
+  border: 3px solid #420516;
+  border-radius: 20px;
+  display: contents;
+}
+
 #calc-contain {
+  margin-top: 20px;
+  background: black;
+  margin-top: 20px;
   position: relative;
-  width: 400px;
+  width: 500px;
   border: 2px solid black;
-  border-radius: 12px;
-  margin: 0px auto;
+  border-radius: 0 50px 0 50px;
+  margin: 50px auto 0 auto;
   padding: 20px 20px 100px 20px;
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
 }
 
 #agh {
+  left: 100px;
   position: relative;
-  float: right;
-  margin-top: 15px;
+  text-align: center;
+  float: left;
 }
 
 #agh p {
-  font-size: 20px;
+  font-family: cursive;
+  font-size: 40px;
   font-weight: 900;
+  animation-duration: 3s;
+  animation-name: slideout;
+}
+@keyframes slideout {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 input[type=button] {
-  background: lightGray;
+  background: ;
   width: 20%;
   font-size: 20px;
   font-weight: 900;
   border-radius: 7px;
   margin-left: 13px;
   margin-top: 10px;
+}
+
+input[type=button]:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+input[type=button]:hover {
+  background-color: red;
+  color: white;
+}
+
+input[type=text] {
+  position: relative;
+  display: block;
+  width: 90%;
+  margin: 5px auto;
+  font-size: 20px;
+  padding: 10px;
+  box-shadow: 4px 0px 12px lightgrey inset;
 }
