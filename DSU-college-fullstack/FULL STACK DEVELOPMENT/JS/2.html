@@ -1,0 +1,32 @@
+<html>
+
+<body>
+
+  <h2>JavaScript Objects</h2>
+
+  <p id="demo"></p>
+
+  <script>
+    // Create an object:
+    var my_car = {
+      make: "Ford",
+      model: "Fusion"
+    };
+    document.writeln(my_car["make"] + "<br>");
+    document.writeln(my_car.model);
+    my_car.engine = new Object();
+    my_car.engine.config = "v6";
+    my_car.engine.hp = "260";
+    document.writeln("hi");
+
+    document.write(my_car.engine.config);
+    document.write("</br>");
+    for (var i in my_car) {
+
+      document.writeln("<br>" + my_car[i]);
+    }
+  </script>
+
+</body>
+
+</html>
