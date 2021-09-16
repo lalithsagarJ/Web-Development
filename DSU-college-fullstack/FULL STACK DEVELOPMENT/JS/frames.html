@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+      functiom day_title(day_name){
+        document.write("<td align=center width=35 bgcolor=Lightblue><b>"+day_name+"</b></td>")
+      }
+      function fill_table(month,month_len){
+        day = 1;
+        document.write("table border=1 cellspacing=3 cellpadding=3%>");
+        document.write("<tr>");
+        document.write("<td colspan=7 align=center bgcolor=red><b>"+month+" "+year+"</b></td>")
+        document.write("</tr>");
+        document.write("<tr>")
+        day_title("Sun");
+        day_title("Mon");
+        day_title("Tue");
+        day_title("Wed");
+        day_title("Thu");
+        day_title("Fri");
+        day_title("Sat");
+        document.write("<tr></tr>")
+        for(var i=1;i<start_day;i++){
+          document.write("<td>");
+        }
+      }
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>
