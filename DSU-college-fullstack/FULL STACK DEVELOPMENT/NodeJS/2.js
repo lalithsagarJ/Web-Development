@@ -1,4 +1,5 @@
-var rect = require('./rectangle');
+/*jshint esversion: 6 */
+var rect = require('./rectangle0');
 
 function solveRect(l, b) {
   console.log("Solving for rectangle with l = " +
