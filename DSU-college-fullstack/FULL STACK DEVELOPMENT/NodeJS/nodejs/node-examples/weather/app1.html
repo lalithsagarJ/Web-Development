@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Launch Status</title>
+  <script type="text/javascript">
+    window.addEventListner("load", function() {
+      fetch(url = "http://api.weatherstack.com/current?access_key=441f6c3b98d85e3d81e393429ed26150&query=New%20York").then(function(response) {
+        response.json().then(function(json) {
+          const div = document.getElementById("weather-conditions");
+          div.innerHTML =`
+              <ul>
+                <li>Temp ${json.location}</li>
+                <li>Wind Speed ${json.windSpeed}</li>
+                <li>Status ${json.status}</li>
+                <li>Chance of Precip ${json.chanceOfPrecipitation}</li>
+                </ul>
+          `;
+        });
+
+      });
+    });
+  </script>
+</head>
+
+<body>
+<h1>Launch Status</h1>
+<h3>Weather conditions</h3>
+<div id="weather-conditions">
+
+</div>
+</body>
+
+</html>
