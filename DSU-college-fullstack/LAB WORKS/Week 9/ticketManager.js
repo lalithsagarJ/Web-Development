@@ -10,7 +10,7 @@ class TicketManager extends EventEmitter {
   }
   buy(email, price) {
     this.supply--;
-    this.emit("buy", email, price, Date.now());
+    this.emit("buy", email, price, Date.now()); //fire the event
   }
 }
 
