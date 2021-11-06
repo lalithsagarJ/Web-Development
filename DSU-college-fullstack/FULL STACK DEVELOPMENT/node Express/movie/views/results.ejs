@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+
+   <title>Document</title>
+</head>
+<body>
+   <h1>Results</h1>
+   <div>
+       <% data['results'].forEach((i)=> { %>
+           <img src="https://www.theidb.org/t/p/w600_and_h900_bestv2<%=i['poster_path']%>">
+           <hr>
+           <h1>The title is : <%= i['original_title'] %>  </h1>
+           <hr>
+           <h1>Summary of the i : <%= i['overview'] %></h1>
+
+     <%  }) %>
+   </div>
+</body>
+</html>
